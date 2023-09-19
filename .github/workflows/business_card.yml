@@ -2,8 +2,8 @@ name: run_business_card
 
 on:
   push:
-    branches:
-      - main # Adjust the branch as needed
+    tags:
+      -'*'
 
 jobs:
   build:
