@@ -26,5 +26,5 @@ jobs:
       - name: Upload PDF Artifact
         uses: actions/upload-artifact@v2
         with:
-          name: your-document.pdf
-          path: your-document.pdf
+          name: card.pdf
+          path: card.pdf
