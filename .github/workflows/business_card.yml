@@ -3,7 +3,7 @@ name: run_business_card
 on:
   push:
     tags:
-      -'*'
+      - '*'
 
 jobs:
   compile-card:
@@ -27,4 +27,3 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: card.pdf
-          path: card.pdf
