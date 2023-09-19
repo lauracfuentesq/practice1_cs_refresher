@@ -1,4 +1,4 @@
-name: run_business_card_2
+name: run_business_card
 
 on:
   push:
