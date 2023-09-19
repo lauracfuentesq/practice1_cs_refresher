@@ -6,7 +6,7 @@ on:
       -'*'
 
 jobs:
-  build:
+  compile-card:
     runs-on: ubuntu-latest
 
     steps:
